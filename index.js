@@ -8,7 +8,7 @@ app.use(express.json())
 
 
 app.get("/",(req,res)=>{
-    res.json({msg:"Server Is Running"})
+    res.json({msg:"Server Is Running and Updating "})
 })
 
 
